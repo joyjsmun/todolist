@@ -14,7 +14,7 @@ const TodoInput = ({value,onChange,onInsert}) => {
     return(
         <div className={cx('todo-input')}>
             <input onChange={onChange} value={value} onKeyPress={handleKeyPress}/>
-            <div className={cx('add-button')} onInsert={onInsert}>Add</div>
+            <div className={cx('add-button')} onClick={onInsert}>Add</div>
         </div>
 
 
