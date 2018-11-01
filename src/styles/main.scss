@@ -1,0 +1,11 @@
+@import 'utils';
+@import url("//fonts.googleapis.com/css?family=Archivo+Black|Quicksand:400,500,700|Roboto+Condensed:400,400i,700");
+
+body{
+    background: $oc-blue-1;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
